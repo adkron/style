@@ -21,6 +21,9 @@ The key exception to this rule is at the head
 of module examples, where there's a box like
 this one describing the example.
 *********************************************/
+
+// Functions and methods should be described above the function
+function () {...}
 ```
 
 ###Curly braces
