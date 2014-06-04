@@ -1,5 +1,4 @@
 #Technical Machine Style Guide
-=====
 ###Spacing
 ```js
 // Tabs should be two spaces
@@ -42,7 +41,6 @@ READMEs should follow the format of our [docs](https://github.com/tessel/docs) p
 ####Titles
 ````
 #Title
-=====
 ````
 
 ####Headers
