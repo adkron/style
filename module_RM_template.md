@@ -1,5 +1,5 @@
 #Module Title 
-Very brief description, e.g. "Driver for the relay-mono Tessel relay module ([Link to datasheet for key chip](www.datasheet.com))."
+Very brief description, e.g. "Driver for the relay-mono Tessel relay module. The hardware documentation for this module can be found [here](https://github.com/tessel/hardware/blob/master/modules-overview.md#relay)"
 If you run into any issues you can ask for support on the [Relay Module Forums](www.linktomoduleforum.com).
 
 ###Important Information Specific to Module
