@@ -1,5 +1,6 @@
 #Module Title 
 Very brief description, e.g. "Driver for the relay-mono Tessel relay module. The hardware documentation for this module can be found [here](https://github.com/tessel/hardware/blob/master/modules-overview.md#relay)"
+
 If you run into any issues you can ask for support on the [Relay Module Forums](www.linktomoduleforum.com).
 
 ###Important Information Specific to Module
@@ -33,7 +34,7 @@ The importation line should refer to the npm module, not '../'.
 &#x20;<a href="#api-relay-on-ready-callback-Emitted-upon-first-successful-communication-between-the-Tessel-and-the-module" name="api-relay-on-ready-callback-Emitted-upon-first-successful-communication-between-the-Tessel-and-the-module">#</a> relay<b>.on</b>( 'ready', callback() ) Emitted upon first successful communication between the Tessel and the module.  
 
 ###Further Examples  
-[Audio playback](link to example for this in the "examples" folder). Description of what this example does. 
+* [Audio playback](link to example for this in the "examples" folder). Description of what this example does. 
 
 ###Advanced  
 * Any cool hacks e.g. wire hacks
