@@ -1,8 +1,9 @@
 #Module Title 
-Very brief description, e.g. "Driver for the accel-mma84 Tessel accelerometer module (\<key chip\>)."
+Very brief description, e.g. "Driver for the relay-mono Tessel relay module ([Link to datasheet for key chip](www.datasheet.com))."
+If you run into any issues you can ask for support on the [Module Forums](www.linktomoduleforum.com).
 
 ###Important Information Specific to Module
-e.g. "Here are some pictures that will help you plug in this chip" or "these are the switches that are user controlled."
+e.g. "Here are some pictures that will help you plug in this module" or "these are the switches that are user controlled."
 
 ###Installation
 ```sh
@@ -32,13 +33,10 @@ The importation line should refer to the npm module, not '../'.
 &#x20;<a href="#api-relay-on-ready-callback-Emitted-upon-first-successful-communication-between-the-Tessel-and-the-module" name="api-relay-on-ready-callback-Emitted-upon-first-successful-communication-between-the-Tessel-and-the-module">#</a> relay<b>.on</b>( 'ready', callback() ) Emitted upon first successful communication between the Tessel and the module.  
 
 ###Further Examples  
-* Audio playback (links to example for this in the "examples" folder)
+[Audio playback](relative link to example for this in the "examples" folder). Description of what this example does. 
 
 ###Advanced  
-* Any cool hacks e.g. wire hacks or whatever
-
-###Forums
-If you run into any issues you can ask for support on the [Module Forums](www.linktomoduleforum.com).
+* Any cool hacks e.g. wire hacks
 
 ###Licensing  
 MIT or Apache 2.0, at your option
