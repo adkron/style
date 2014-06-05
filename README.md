@@ -76,8 +76,8 @@ The syntax does not have to be exact. Marktype will transform anything after [#]
 It should now look like this:  
 &#x20;<a href="#api-new-port-UART-idx-options-implements-DuplexStream" name="api-new-port-UART-idx-options-implements-DuplexStream">#</a> <i>new</i>&nbsp; port<b>.UART</b> ( [idx[,options]] ) implements DuplexStream  
 
-###Reference to Datasheets
-Should be indented in a text block.
+###References to Datasheets
+Should be indented in a text block and linked.
 >According to section 5.1.3 of the [datasheet](http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7005.pdf )
     Fast mode reduces the total power consumed during a conversion or the average power consumed by the Si7005 when making periodic conversions. It also reduces the resolution of the measurements.
 
