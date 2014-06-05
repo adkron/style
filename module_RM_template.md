@@ -36,7 +36,8 @@ The importation line should refer to the npm module, not '../'.
 ###Further Examples  
 * [Audio playback](link to example for this in the "examples" folder). Description of what this example does. 
 
-###Advanced  
+###Hardware specifications and Advanced Information
+* Useful details and diagrams of the hardware 
 * Any cool hacks e.g. wire hacks
 
 ###Licensing  
