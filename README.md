@@ -35,6 +35,15 @@ if (callback) {
 }
 ```
 
+###Module Imports
+Module imports in any example files should follow this format.
+```js
+var tessel = require('tessel');
+var relaylib = require('../'); // Replace '../' with 'relay-mono' in your own code
+
+var relay = relaylib.use(tessel.port['A']);  
+```
+
 ###READMEs
 READMEs for Tessel should follow the the format outlined below.
 
@@ -69,6 +78,8 @@ It should now look like this:
 
 ###Reference to Datasheets
 Should be indented in a text block.
+>According to section 5.1.3 of the [datasheet](http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7005.pdf )
+    Fast mode reduces the total power consumed during a conversion or the average power consumed by the Si7005 when making periodic conversions. It also reduces the resolution of the measurements.
 
 ###Content
 Modules should follow the content format outlined in the `module_RM_template.md` file in this repo.
