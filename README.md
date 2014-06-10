@@ -68,18 +68,23 @@ We will be using a npm module called marktype to format our API documentation. Y
 
 Pre-marktype, simply write your documentation like this:
 ```  
-[#] new port.UART([idx[,options]]) implements DuplexStream
+[#] new port.UART([idx[,options]])  
+implements DuplexStream
 ```
 
 The syntax does not have to be exact. Marktype will transform anything after [#] into our prefered API syntax.
 
 It should now look like this:  
-&#x20;<a href="#api-new-port-UART-idx-options-implements-DuplexStream" name="api-new-port-UART-idx-options-implements-DuplexStream">#</a> <i>new</i>&nbsp; port<b>.UART</b> ( [idx[,options]] ) implements DuplexStream  
+&#x20;<a href="#api-new-port-UART-idx-options-implements-DuplexStream" name="api-new-port-UART-idx-options-implements-DuplexStream">#</a> <i>new</i>&nbsp; port<b>.UART</b> ( [idx[,options]] )  
+implements DuplexStream  
 
 ###References to Datasheets
 Should be indented in a text block and linked.
 >According to section 5.1.3 of the [datasheet](http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7005.pdf )
     Fast mode reduces the total power consumed during a conversion or the average power consumed by the Si7005 when making periodic conversions. It also reduces the resolution of the measurements.
+
+###Documentation Standards
+Any official technical machine documentation should include the files specified in the Templates folder of this repository. 
 
 ###Content
 Modules should follow the content format outlined in the `module_RM_template.md` file in this repo.
