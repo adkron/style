@@ -1,0 +1,31 @@
+//This an example package.json taken from the Relay module.
+{
+  "name": "relay-mono",
+  "version": "0.1.2",
+  "description": "Library to run the Tessel Relay module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tinytap -e 'tessel run {} ${RELAY_PORT}' test/*.js"
+  },
+  "hardware": {
+    "./examples": false,
+    "./test": false
+  },
+  "devDependencies": {
+    "tinytap": "0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tessel/modules.git"
+  },
+  "author": "Jon McKay <jon@technical.io>",
+  "license": "MIT/Apache 2.0",
+  "readmeFilename": "README.md",
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [
+    "tessel",
+    "relay"
+  ]
+}
